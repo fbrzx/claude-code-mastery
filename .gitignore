@@ -1,0 +1,19 @@
+# Environment variables
+.env
+.env.*
+.env.local
+
+# Local Claude instructions (not for public repo)
+.claude/
+
+# Tracking files (not for public repo)
+docs/REDDIT_HISTORY.md
+
+# IDE
+*.code-workspace
+
+# Playwright MCP local files
+.playwright-mcp/
+
+# Windows Zone.Identifier files
+*:Zone.Identifier
