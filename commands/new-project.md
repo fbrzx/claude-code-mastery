@@ -22,8 +22,8 @@ Ask the user for the following information. Show defaults and allow them to acce
 | API Framework | **Fastify** | Fastify, Express, None |
 | Testing | **Vitest** | Vitest, Jest |
 | ORM | **Prisma** | Prisma, Drizzle, Sequelize, None |
-| Event Sourcing | **Redis** | RabbitMQ, None |
-| UI Library | **daisyUI** | materialUI, shadcn/ui, None |
+| Event Sourcing | **Redis** | Redis, RabbitMQ, None |
+| UI Library | **daisyUI** | daisyUI, materialUI, shadcn/ui, None |
 
 Ask: "I'll create the project with these defaults. Would you like to customize any technologies?"
 
