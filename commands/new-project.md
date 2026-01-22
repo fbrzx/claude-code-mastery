@@ -11,18 +11,19 @@ Create a new monorepo project following the standard structure and conventions.
 Ask the user for the following information. Show defaults and allow them to accept or customize:
 
 ### Project Name
-- Ask: "What is the project name?" (lowercase, kebab-case)
+- Ask: "What is the project name?" (lowercase, kebab-case). If we are in an empty folder, assume the project name is the name of the current folder.
 
 ### Technologies (show defaults, ask if they want to change)
 
 | Component | Default | Options |
 |-----------|---------|---------|
 | Package Manager | **pnpm** (required, cannot change) | — |
-| Web Framework | **Next.js** | Next.js, Vite, Remix, Astro, None |
-| API Framework | **Fastify** | Fastify, Hono, Express, None |
-| ORM | **Prisma** | Prisma, Drizzle, Sequelize, None |
+| Web Framework | **Next.js** | Next.js, Vite, None |
+| API Framework | **Fastify** | Fastify, Express, None |
 | Testing | **Vitest** | Vitest, Jest |
-| UI Library | **None** | daisyUI, materialUI, shadcn/ui, None |
+| ORM | **Prisma** | Prisma, Drizzle, Sequelize, None |
+| Event Sourcing | **Redis** | RabbitMQ, None |
+| UI Library | **daisyUI** | materialUI, shadcn/ui, None |
 
 Ask: "I'll create the project with these defaults. Would you like to customize any technologies?"
 
